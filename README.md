@@ -6,9 +6,7 @@ Installation pre-requisites
 sudo apt-get update
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
-sudo apt-get install -y nodejs python3.6 npm awscli
-
-
+sudo apt-get install -y nodejs python3.6 npm awscli python3-pip python3-venv
 ```
 
 Node dependencies for deploying flask applications
@@ -43,8 +41,6 @@ Default output format [None]:
 Create a Virtual Env in project folder
 
 ```
-sudo pip3 install virtualenv
-
 # Virtual Environment stuff
 python3.6 -m venv env
 source env/bin/activate
