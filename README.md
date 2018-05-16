@@ -36,12 +36,18 @@ Note:
 IAM create a user `serverless-admin` with `AdministratorAccess`.
 ```
 
-
-
 Create a Virtual Env in project folder
 
 ```
 # Virtual Environment stuff
 python3.6 -m venv env
 source env/bin/activate
+```
+
+Finally
+```
+pip freeze > requirements.txt
+
+# Create app.py
+# sls deploy
 ```
