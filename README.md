@@ -4,8 +4,10 @@ Installation pre-requisites
 
 ```
 sudo apt-get update
-sudo apt-get install nodejs
-sudo apt-get install python3.6
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install -y nodejs python3.6 npm awscli
+
 
 ```
 
@@ -13,7 +15,8 @@ Node dependencies for deploying flask applications
 
 ```
 # Installs the serverless framework
-npm install -g serverless
+sudo npm i npm
+sudo npm install -g serverless
 
 # Init the project
 npm init -f
@@ -25,6 +28,9 @@ npm install --save-dev serverless-wsgi serverless-python-requirements
 AWS credentials setup
 
 ```
+Note:
+IAM create a user `serverless-admin` with `AdministratorAccess`.
+
 # Configure the keys for aws
 aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
@@ -32,8 +38,6 @@ AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: us-east-1
 Default output format [None]:
 
-Note:
-IAM create a user `serverless-admin` with `AdministratorAccess`.
 ```
 
 Create a Virtual Env in project folder
