@@ -1,0 +1,3 @@
+flask_hello/env/*
+flask_hello/node_modules/*
+flask_hello/.serverless
