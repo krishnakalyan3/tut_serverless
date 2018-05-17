@@ -6,5 +6,4 @@ image_quality/env/*
 image_quality/node_modules/*
 image_quality/.serverless
 
-
 .idea/*
