@@ -1,7 +1,7 @@
 import random
 
 
-def lucky_number(event, context):
+def context(event, context):
     print(event)
     print(context)
 

@@ -27,9 +27,10 @@ provider:
       Resource: "*"
 
 functions:
-  luckyNumber:
-    handler: quality.lucky_number
+
+  quality:
+    handler: handler.context
     events:
       - s3:
-        bucket: eventbucket1234
-        event: s3:ObjectCreated:*
+          bucket: eventbucket1234
+          event: s3:ObjectCreated:*
