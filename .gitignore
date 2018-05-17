@@ -1,4 +1,10 @@
 flask_hello/env/*
 flask_hello/node_modules/*
 flask_hello/.serverless
+
+image_quality/env/*
+image_quality/node_modules/*
+image_quality/.serverless
+
+
 .idea/*
