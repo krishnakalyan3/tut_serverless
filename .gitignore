@@ -1,8 +1,17 @@
 .idea/*
+
+
+
+aws/package-lock.json
 aws/node_modules/*
 aws/.serverless/*
 aws/__pycache__/*
 
+
+azure/package-lock.json
+azure/node_modules/*
+azure/__pycache__/*
+azure/.serverless/*
 
 flask_hello/env/*
 flask_hello/node_modules/*
