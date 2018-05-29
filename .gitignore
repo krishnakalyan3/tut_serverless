@@ -7,8 +7,7 @@ flask_hello/env/*
 flask_hello/node_modules/*
 flask_hello/.serverless
 
-others/image_quality/env/*
-others/image_quality/node_modules/*
-others/image_quality/.serverless
+others/*
+
 
 .idea/*
