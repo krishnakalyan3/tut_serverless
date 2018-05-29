@@ -1,9 +1,14 @@
+aws/node_modules/*
+aws/.serverless/*
+aws/__pycache__/*
+
+
 flask_hello/env/*
 flask_hello/node_modules/*
 flask_hello/.serverless
 
-image_quality/env/*
-image_quality/node_modules/*
-image_quality/.serverless
+others/image_quality/env/*
+others/image_quality/node_modules/*
+others/image_quality/.serverless
 
 .idea/*

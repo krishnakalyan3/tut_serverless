@@ -1,0 +1,11 @@
+{
+  "name": "az-login-sample",
+  "version": "1.0.0",
+  "description": "A sample usage of the az-login module",
+  "main": "index.js",
+  "author": "Jonathan Carter",
+  "license": "MIT",
+  "dependencies": {
+    "azure-arm-resource": "^2.0.0-preview"
+  }
+}
