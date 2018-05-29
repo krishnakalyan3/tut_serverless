@@ -1,3 +1,4 @@
+.idea/*
 aws/node_modules/*
 aws/.serverless/*
 aws/__pycache__/*
