@@ -13,6 +13,13 @@ azure/node_modules/*
 azure/__pycache__/*
 azure/.serverless/*
 
+gcp/package-lock.json
+gcp/node_modules/*
+gcp/__pycache__/*
+gcp/.serverless/*
+
+
+
 flask_hello/env/*
 flask_hello/node_modules/*
 flask_hello/.serverless
