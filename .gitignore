@@ -9,6 +9,11 @@ aws/node_modules/*
 aws/.serverless/*
 aws/__pycache__/*
 
+simple_app/package-lock.json
+simple_app/node_modules/*
+simple_app/.serverless/*
+simple_app/__pycache__/*
+
 
 azure/package-lock.json
 azure/node_modules/*
@@ -28,5 +33,7 @@ flask_hello/.serverless
 
 others/*
 
-
+.DS_Store
 .idea/*
+
+
