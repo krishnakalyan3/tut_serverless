@@ -1,6 +1,6 @@
 # serverless.yml
 
-service: serverless-flask-test
+service: simple-app
 
 plugins:
   - serverless-python-requirements
